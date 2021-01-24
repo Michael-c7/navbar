@@ -33,21 +33,19 @@ body {
     position: relative;
     display:flex;
     justify-content: space-between;
-    /* background-color:red; */
     width:95%;
     margin:0 auto;
-    padding-top:1rem;  
+    padding:1rem 0;  
 }
 
 .navbar__logo {
     /*clamp(min-size, preferred size, max size)*/
     font-size: clamp(1rem, 2rem, 3rem);
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 
 .hamburger-menu {
-    /* background:rgba(255, 0, 0, 0.368); */
     position: relative;
     width:1.5rem;
     height:inherit;
@@ -115,7 +113,10 @@ body {
     align-items:center;
     width:95%;
     margin:0 auto;
-    padding:2rem 0;  
+    padding:1rem 0;
+
+    /*hide like this until you have to animate it*/
+    display:none;
 }
 
 .navbar__item {
@@ -148,15 +149,15 @@ body {
         align-items: center;
         position: relative;
         background-color:#fff;
+
+        box-shadow:0px 2px 10px rgba(34, 34, 34, 0.10);
     }
 
     .navbar__display {
         position: relative;
         display:flex;
-        /* background-color:red; */
         width:auto;
         margin:0;
-        padding-top:0rem;  
     }
 
     .navbar__logo {
@@ -172,8 +173,6 @@ body {
     }
 
     .navbar__items {
-        
-        /* background-color:red; */
         display:flex;
         flex-direction: row;
         align-items:center;
