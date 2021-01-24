@@ -27,6 +27,7 @@ body {
 .navbar {
     position: relative;
     background-color:#fff;
+    box-shadow:0px 2px 10px rgba(153, 153, 153, 0.1);
 }
 
 .navbar__display {
@@ -148,9 +149,7 @@ body {
         justify-content: space-between;
         align-items: center;
         position: relative;
-        background-color:#fff;
-
-        box-shadow:0px 2px 10px rgba(34, 34, 34, 0.10);
+        background-color:#fff;       
     }
 
     .navbar__display {
